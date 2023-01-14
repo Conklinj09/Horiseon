@@ -1,83 +1,214 @@
 <!DOCTYPE html>
-<html lang="en-us">
+<html lang="en">
 
 <head>
-    <meta charset="UTF-8" />
-    <link rel="stylesheet" href="./assets/css/style.css">
-    <title>website</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Lernantino // Web Developer</title>
+  <link rel="stylesheet" href="./assets/css/style.css" />
 </head>
 
 <body>
-    <header class="header">
-        <h1>Hori<span class="seo">seo</span>n</h1>
-        <nav>
-            <ul>
-                <li>
-                    <a href="#search-engine-optimization">Search Engine Optimization</a>
-                </li>
-                <li>
-                    <a href="#online-reputation-management">Online Reputation Management</a>
-                </li>
-                <li>
-                    <a href="#social-media-marketing">Social Media Marketing</a>
-                </li>
-            </ul>
-        </nav>
-    </header>
-    <div class="hero"></div>
-    <div class="content">
-        <div class="search-engine-optimization">
-            <img src="./assets/images/search-engine-optimization.jpg" class="float-left" />
-            <h2>Search Engine Optimization</h2>
-            <p>
-                The dominance of mobile internet use means that users are searching for the right business as they travel, shop, or sit on their couch at home. Search Engine Optimization (SEO) allows you to increase your visibility and find the right customers for your business.
-            </p>
-        </div>
-        <div id="online-reputation-management" class="online-reputation-management">
-            <img src="./assets/images/online-reputation-management.jpg" class="float-right" />
-            <h2>Online Reputation Management</h2>
-            <p>
-                The web is full of opinions, and some of these can be negative. Social media allows anyone with an internet connection to say whatever they want about your business. Online Reputation Management gives you the control over what potential customers see when they search for your business.
-            </p>
-        </div>
-        <div id="social-media-marketing" class="social-media-marketing">
-            <img src="./assets/images/social-media-marketing.jpg" class="float-left" />
-            <h2>Social Media Marketing</h2>
-            <p>
-                Social media continues to have a sizable influence on buying habits. Social media marketing helps you determine which platforms are suited to your brand, using analytics to find the right markets and increase your lead generation.
-            </p>
-        </div>
+  <!-- main logo / nav -->
+  <header>
+    <h1>Welcome to my Full Stack Development Page!</h1>
+    <nav>
+      <a href="#about">About Me</a>
+      <a href="#work">Work</a>
+      <a href="#contact">Contact Me</a>
+      <!-- Link this to your resume! -->
+      <a href="">Resume</a>
+    </nav>
+  </header>
+
+  <!-- hero banner -->
+  <section class="hero-banner">
+    <div>
+      <h2>Yoga by day, development by night!</h2>
     </div>
-    <div class="benefits">
-        <div class="benefit-lead">
-            <h3>Lead Generation</h3>
-            <img src="./assets/images/lead-generation.png" />
-            <p>
-                Inbound strategies for lead generation require less work for your business, bringing customers directly to your website.
-            </p>
-        </div>
-        <div class="benefit-brand">
-            <h3>Brand Awareness</h3>
-            <img src="./assets/images/brand-awareness.png" />
-            <p>
-                Users find your business through paid and organic searches, increasing the search ranking and visibility for your business.
-            </p>
-        </div>
-        <div class="benefit-cost">
-            <h3>Cost Management</h3>
-            <img src="./assets/images/cost-management.png" />
-            <p>
-                As the search ranking for your business increases, your advertising costs decrease, and you no longer need to advertise your page.
-            </p>
-        </div>
-    </div>
-    <div class="footer">
-        <h2>Made with ❤️️ by Horiseon</h2>
+  </section>
+
+  <main class="page-wrapper">
+    <!-- about me -->
+    <section class="page-section" id="about">
+      <h2>About Me</h2>
+      <div>
         <p>
-            &copy; 2019 Horiseon Social Solution Services, Inc.
+         Hello my name is Jeanette Conklin.
+         I love to bake and watch The Thundercats Show.
+         I also love to go swimming to stay in shape.
+         As a swim instructor, I enjoy training others at their craft.
+         Swimming is one of the most beneficial excercises for the body.
+
         </p>
-    </div>
+      </div>
+    </section>
+
+    <!-- portfolio container -->
+    <section class="page-section" id="work">
+      <h2>Work</h2>
+      <div class="flex-container">
+
+        <a href="https://github.com/Conklinj09/MERN-One" class="flex-item surf-report">
+          <div>
+            <h3>Surf Report</h3>
+            <span>MERN Stack</span>
+          </div>
+        </a>
+
+        <link rel="REACT href="" />
+        <a href="https://conklinj09.github.io/react-portfolio-ace/" class="flex-item react ">
+          <div>
+            <h3>MVC Paradigm</h3>
+            <span> Apollo, Node, Sequelize, Express </span>
+          </div>
+        </a>
+
+        <link rel="Text Editor href="" />
+        <a href="https://conklinj09.github.io/text-editor/" class="flex-item text-editor  ">
+          <div>
+            <h3>Progressive Web Application</h3>
+            <span>MVC, Handlebars, Sequelize, Express </span>
+          </div>
+        </a>
+
+        <link rel="Social Network API href="" />
+        <a href="https://github.com/Conklinj09/Social-Network-API" class="flex-item social-network-api  ">
+          <div>
+            <h3>MVC Paradigm</h3>
+            <span>Model View Controllers, Handlebars, Sequelize, Express </span>
+          </div>
+        </a>
+
+
+        <link rel="Regex Tutorial href="" />
+        <a href="https://conklinj09.github.io/Regex-Tutorial/" class="flex-item regex-tutorial ">
+          <div>
+            <h3>Algorithms</h3>
+            <span>Regular Expressions </span>
+          </div>
+        </a>
+
+        <link rel="Project 2" href="" />
+        <a href="https://conklinj09.github.io/Sage-The-Seer/" class="flex-item Sage-The-Seer ">
+          <div>
+            <h3>Sage The Seer</h3>
+            <span>Express, Session, MySQL2, Handlebars, Bcrypt, Dotenv, Nodemon, Sequlize and Bootstrap icons </span>
+          </div>
+        </a>
+        
+        <link rel="Tech Blog" href="" />
+        <a href="https://conklinj09.github.io/Tech-Blog/" class="flex-item Tech-Blog ">
+          <div>
+            <h3>MVC Paradigm</h3>
+            <span>Model View Controllers, Handlebars, Sequelize, Express </span>
+          </div>
+        </a>
+
+        <link rel="E Commerce Back End" href="" />
+        <a href="https://conklinj09.github.io/E-Commerce-Back-End/" class="flex-item E-Commerce-Back-End ">
+          <div>
+            <h3>Object Relational Mapping</h3>
+            <span>Express, Sequelize, MySQL </span>
+          </div>
+        </a>
+        
+        <link rel="Employee Tracker" href="" />
+        <a href="https://conklinj09.github.io/Employee-Tracker/" class="flex-item employee-tracker">
+          <div>
+            <h3>CMS System</h3>
+            <span>Node, Inquirer, MySQL </span>
+          </div>
+        </a>
+
+        <link rel="Note Taker" href="" />
+        <a href="https://conklinj09.github.io/Note-Taker/" class="flex-item note-taker">
+          <div>
+            <h3>Heroku</h3>
+            <span>JSON, Express </span>
+          </div>
+        </a>
+        
+        <link rel="Team Profile Generator" href="" />
+        <a href="https://conklinj09.github.io/Team-Profile-Generator/" class="flex-item team-profile">
+          <div>
+            <h3>Jest + Inquirer</h3>
+            <span>HTML, CSS, Jest, Inquirer</span>
+          </div>
+        </a>
+
+        <link rel="Professional README Generator" href="" />
+        <a href=" https://conklinj09.github.io/Professional-README-Generator/" class="flex-item node">
+          <div>
+            <h3>Node</h3>
+            <span>Node</span>
+          </div>
+        </a>
+
+        <link rel="Flick Genie" href="" />
+        <a href="https://stang91.github.io/movie-recommendation-gen" class="flex-item flick-genie">
+          <div>
+            <h3>Flick Genie</h3>
+            <span>HTML, CSS, </span>
+          </div>
+        </a>
+
+        <link rel="Weather-Dashboard" href="" />
+        <a href="https://conklinj09.github.io/Weather-Dashboard/" class="flex-item weather-dashboard">
+          <div>
+            <h3>Server-Side APIs</h3>
+            <span>HTML, CSS, Jquery</span>
+          </div>
+        </a>
+        
+        <link rel="Work Day Scheduler" href="" />
+        <a href="https://conklinj09.github.io/Work-Day-Scheduler/" class="flex-item third-party-apis">
+          <div>
+            <h3>Third Party APIs</h3>
+            <span>HTML, CSS, Jquery</span>
+          </div>
+        </a>
+        <link rel="Code Quiz" href="" />
+        <a href="https://conklinj09.github.io/CodeQuiz/" class="flex-item coding-quiz">
+          <div>
+            <h3>Code Quiz</h3>
+            <span>JavaScript/CSS</span>
+          </div>
+        </a>
+        <link rel="Password-Generator" href="" />
+        <a href="https://conklinj09.github.io/Password-Generator/" class="flex-item password-generator ">
+          <div>
+            <h3>Password Generator</h3>
+            <span>Javascript</span>
+          </div>
+        </a>
+
+        <link rel="run-buddy" href="" />
+        <a href="https://conklinj09.github.io/challenge-1-horiseon/" class="flex-item run-buddy">
+          <div>
+            <h3>Run Buddy</h3>
+            <span>HTML/CSS</span>
+          </div>
+        </a>
+
+      </div>
+    </section>
+
+    <!-- contact -->
+    <section class="page-section contact" id="contact">
+      <h2>Contact Me</h2>
+      <div>
+        <address>
+          <a href="tel:+4243929406">Phone Number</a>
+          <a href="mailto:Conklinj09@gmail.com">Conklinj09@gmail.com</a>
+          <a href="https://github.com/Conklinj09">GitHub</a>
+          <a href="https://www.linkedin.com/in/jeanette-conklin-0996b351/">LinkedIn</a>
+          <a href=""></a>
+        </address>
+      </div>
+    </section>
+  </main>
 </body>
 
 </html>
-
